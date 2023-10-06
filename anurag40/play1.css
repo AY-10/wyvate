@@ -1,0 +1,95 @@
+
+.div3part1{
+    position: absolute;
+  
+    margin-top: 80px;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 60%;
+  /* background-image: url(playstoreimage.jpg); */
+ overflow: hidden;;
+  
+  }
+  .div3part2{
+    z-index: 3;
+    display: flex;
+    flex-direction:column;
+
+    
+  }
+  .playstoreicon{
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    justify-items: row;
+  }
+  .playstoreheading{
+    color: var(--grays-full-black, #000);
+  font-family: Gellix;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  color: var(--primary-green, #09C27E);
+  text-align: right;
+  font-family: Gellix;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  width: 730px;
+  }
+  .list2{
+    color: var(--grays-gray-4, #495057);
+text-align: right;
+font-family: Gellix;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.3px;
+  }
+  .logopart{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    
+
+  }
+  .playstorebutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 50px;
+    
+  }
+  .playstorebutton1{
+    border-radius: 8px;
+border: 1px solid var(--grays-full-black, #000);
+width: 161px;
+height: 47px;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+  }
+  
+  .playstorebutton2{
+    border-radius: 8px;
+border: 1px solid var(--grays-full-black, #000);
+width: 175px;
+height: 47px;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+  }
+ .playstorebackground{
+    position:relative;
+     
+   
+    z-index:-1;
+ }

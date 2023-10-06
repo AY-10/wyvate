@@ -1,0 +1,48 @@
+.playp1{
+    margin-top: -2%;
+    fill: #1FB978;
+opacity: 0.563;
+display: flex;
+justify-content: end;
+z-index: -2;
+}
+.playp2{
+margin-top: -41.5%;
+margin-left: 61%;
+    fill: linear-gradient(219deg, #00CF84 18.7%, #00E390 47.95%);
+    width: 615.874px;
+height: 571.756px;
+flex-shrink: 0;
+display: flex;
+justify-content: end;
+
+}
+.circlep{
+display: flex;
+justify-content: end;
+}
+
+.circlep1{
+ 
+margin-top: -36.5%;
+margin-right: -13%;
+    stroke-width: 8px;
+stroke: #d50d0d;
+background-color:  #00E390;
+
+width: 33.197px;
+height: 32.519px;
+flex-shrink: 0;
+
+}
+.circlep2{
+ 
+   margin-top: -30%;
+   margin-right: 15%;
+    stroke-width: 8px;
+stroke: #d60f0f;
+background-color:  #00E390;
+width: 20.59px;
+height: 20.17px;
+flex-shrink: 0;
+}
